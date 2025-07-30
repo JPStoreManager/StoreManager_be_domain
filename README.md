@@ -1,0 +1,1 @@
+# StoreManager_be_domain
