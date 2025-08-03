@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'manage.store'
+version = '0.0.1-SNAPSHOT'
+
+dependencies {
+    // Lombok 의존성
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+}
+
+test {
+    useJUnitPlatform();
+}
+jar {
+    enabled = true
+}
+
+bootJar {
+    enabled = false;
+}
