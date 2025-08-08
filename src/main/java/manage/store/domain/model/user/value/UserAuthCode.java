@@ -1,6 +1,6 @@
 package manage.store.domain.model.user.value;
 
-import manage.store.domain.exception.InvalidParameterException;
+import manage.store.domain.exception.common.InvalidParameterException;
 
 public class UserAuthCode {
 

@@ -1,4 +1,4 @@
-package manage.store.domain.exception;
+package manage.store.domain.exception.common;
 
 public class InvalidParameterException extends RuntimeException {
     public InvalidParameterException(String message) {
